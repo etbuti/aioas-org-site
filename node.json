@@ -1,0 +1,45 @@
+{
+  "schema": "https://aioas.org/spec/node/v1",
+  "name": "Origin Audit Standard",
+  "id": "oas-root",
+
+  "root": "https://aioas.org/",
+  "canonical": "https://aioas.org/",
+
+  "network": "AI Origins",
+  "site_type": "protocol-root",
+
+  "description": "Origin Audit Standard (OAS) is a deterministic audit proof framework that separates Proof, Verification, and Trust.",
+
+  "operator": {
+    "name": "Evan Bei",
+    "contact": "toptrust@gmail.com"
+  },
+
+  "protocol": {
+    "name": "Origin Audit Standard",
+    "abbreviation": "OAS",
+    "version": "0.1"
+  },
+
+  "public_entrypoints": {
+    "home": "https://aioas.org/",
+    "spec": "https://aioas.org/spec/",
+    "docs": "https://aioas.org/docs/",
+    "examples": "https://aioas.org/examples/",
+    "reference": "https://github.com/etbuti/aiorigins-audit"
+  },
+
+  "machine_readable": {
+    "node": "https://aioas.org/node.json"
+  },
+
+  "identity": {
+    "role": "protocol-root",
+    "ecosystem": "AI Origins"
+  },
+
+  "status": "active",
+
+  "updated_at": "2026-03-10T00:00:00Z"
+}
