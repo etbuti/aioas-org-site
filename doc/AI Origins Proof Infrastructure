@@ -1,0 +1,32 @@
+# AI Origins Proof Infrastructure
+
+```mermaid
+flowchart TB
+
+Reality["Reality / Observed State"]
+
+Runner["Runner
+Audit Generator"]
+
+Proof["Proof Package
+manifest.json
+artifacts"]
+
+Anchor["Anchor Chain
+anchor.log"]
+
+Verify["Deterministic Verification
+verify_oas.py"]
+
+Sign["Signature Layer
+append-only signatures"]
+
+Trust["Growing Trust Network"]
+
+Reality --> Runner
+Runner --> Proof
+Proof --> Anchor
+Proof --> Verify
+Anchor --> Verify
+Verify --> Sign
+Sign --> Trust
