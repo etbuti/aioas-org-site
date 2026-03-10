@@ -1,7 +1,7 @@
 # OAS vs Blockchain vs Traditional Audit
 
 ```mermaid
-flowchart LR
+flowchart TB
 
 subgraph Traditional_Audit["Traditional Audit"]
 TA1["Evidence"]
