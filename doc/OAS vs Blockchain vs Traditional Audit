@@ -1,7 +1,6 @@
-# OAS vs Blockchain vs Traditional Audit
 
 ```mermaid
-flowchart TB
+flowchart LR
 
 subgraph Traditional_Audit["Traditional Audit"]
 TA1["Evidence"]
@@ -12,7 +11,7 @@ TA4["Institutional Trust"]
 TA1 --> TA2
 TA2 --> TA3
 TA3 --> TA4
-
+end
 
 
 subgraph Blockchain_Model["Blockchain"]
@@ -26,7 +25,7 @@ BC1 --> BC2
 BC2 --> BC3
 BC3 --> BC4
 BC4 --> BC5
-
+end
 
 
 subgraph OAS_Model["Origin Audit Standard (OAS)"]
@@ -41,3 +40,4 @@ O1 --> O2
 O2 --> O3
 O3 --> O4
 O4 --> O5
+end
