@@ -1,0 +1,44 @@
+# OAS vs Blockchain vs Traditional Audit
+
+```mermaid
+flowchart LR
+
+subgraph Traditional_Audit["Traditional Audit"]
+TA1["Evidence"]
+TA2["Auditor Review"]
+TA3["Audit Report"]
+TA4["Institutional Trust"]
+
+TA1 --> TA2
+TA2 --> TA3
+TA3 --> TA4
+end
+
+
+subgraph Blockchain_Model["Blockchain"]
+BC1["Transaction"]
+BC2["Network Broadcast"]
+BC3["Consensus"]
+BC4["Block Finalization"]
+BC5["Ledger Trust"]
+
+BC1 --> BC2
+BC2 --> BC3
+BC3 --> BC4
+BC4 --> BC5
+end
+
+
+subgraph OAS_Model["Origin Audit Standard (OAS)"]
+O1["Observed Reality"]
+O2["Proof Package
+manifest + artifacts"]
+O3["Deterministic Verification"]
+O4["Independent Signatures"]
+O5["Append-only Trust"]
+
+O1 --> O2
+O2 --> O3
+O3 --> O4
+O4 --> O5
+end
