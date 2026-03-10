@@ -1,0 +1,56 @@
+```mermaid
+flowchart TB
+
+subgraph Ecosystem["AI Origins Ecosystem"]
+AIOrigins["AI Origins
+Network Layer"]
+
+AIPoints["AI Points
+Node Entry & Discovery"]
+
+AuditVisa["AuditVisa
+Automated Audit Service"]
+end
+
+
+subgraph Protocol["Protocol Layer"]
+OAS["Origin Audit Standard (OAS)
+Deterministic Audit Protocol"]
+end
+
+
+subgraph Runtime["Runtime System"]
+Runner["Runner
+Audit Generation"]
+
+Proof["Proof Package
+manifest.json + artifacts"]
+
+Anchor["Anchor Chain
+anchor.log"]
+
+Verify["Verification Engine
+verify_oas.py"]
+
+Sign["Signature Layer
+append-only signatures"]
+
+Node["Node Identity
+node.json"]
+end
+
+
+AIOrigins --> AIPoints
+AIPoints --> OAS
+OAS --> Runner
+
+Runner --> Proof
+Proof --> Anchor
+
+Proof --> Verify
+Anchor --> Verify
+
+Verify --> Sign
+Sign --> Node
+
+Verify --> AuditVisa
