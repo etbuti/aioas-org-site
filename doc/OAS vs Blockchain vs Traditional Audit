@@ -12,7 +12,7 @@ TA4["Institutional Trust"]
 TA1 --> TA2
 TA2 --> TA3
 TA3 --> TA4
-end
+
 
 
 subgraph Blockchain_Model["Blockchain"]
@@ -41,4 +41,3 @@ O1 --> O2
 O2 --> O3
 O3 --> O4
 O4 --> O5
-end
