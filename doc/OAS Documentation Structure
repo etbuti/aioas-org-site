@@ -1,0 +1,21 @@
+Origin Audit Standard (OAS)
+│
+├─ README.md
+│   Project overview
+│   Core model (Proof → Verification → Trust)
+│
+├─ spec/
+│   └─ oas-report-standard-v1.md
+│      Formal specification of the OAS report format
+│
+├─ docs/
+│   ├─ architecture-runtime.md
+│   │   Actual running structure of the OAS system
+│   │
+│   └─ architecture-growth.md
+│       Future trust-network expansion model
+│
+└─ oas/
+    └─ verify/
+        verify_oas.py
+        Reference deterministic verifier
