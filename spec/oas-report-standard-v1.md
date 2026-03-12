@@ -1,5 +1,6 @@
-# OAS Report Standard v1   
 Reality → Proof → Verification → Trust
+
+# OAS Report Standard v1   
 
 Origin Audit Standard (OAS) is a deterministic audit proof framework  
 that separates **proof generation**, **verification**, and **trust endorsement**
