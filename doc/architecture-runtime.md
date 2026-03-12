@@ -1,3 +1,7 @@
+OAS runtime follows the model:
+
+Reality → Proof → Verification → Trust
+
 # OAS Runtime Architecture
 
 This diagram shows the **actual running structure** of the Origin Audit Standard system.
